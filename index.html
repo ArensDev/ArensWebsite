@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arens</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="matrix-canvas"></canvas>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#socials">Socials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div id="theme-toggle" class="theme-switch" aria-label="Toggle light/dark mode" tabindex="0">
+                <div class="switch-track">
+                    <div class="switch-thumb"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="assets/profile_picture.jpg" alt="Profile Picture">
+                </div>
+                <div class="about-text">
+                    <h1>Loading...</h1>
+                    <p class="subtitle">Loading...</p>
+                    <p class="bio">Loading...</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <!-- Skills will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Socials Section -->
+    <section id="socials" class="section">
+        <h2>Socials</h2>
+        <div class="socials-scroll-wrapper">
+            <div class="socials-scroll">
+                <div class="scroll-track">
+                    <!-- First set of cards -->
+                    <div class="social-card">
+                        <a href="#" class="social-platform">
+                            <i class="fab fa-linkedin"></i>
+                            <h3>LinkedIn</h3>
+                            <p>Connect with me professionally</p>
+                        </a>
+                    </div>
+                    <div class="social-card">
+                        <a href="#" class="social-platform">
+                            <i class="fab fa-github"></i>
+                            <h3>GitHub</h3>
+                            <p>Check out my projects</p>
+                        </a>
+                    </div>
+                    <div class="social-card">
+                        <a href="#" class="social-platform">
+                            <i class="fab fa-twitter"></i>
+                            <h3>Twitter</h3>
+                            <p>Follow my updates</p>
+                        </a>
+                    </div>
+                    <div class="social-card">
+                        <a href="#" class="social-platform">
+                            <i class="fab fa-instagram"></i>
+                            <h3>Instagram</h3>
+                            <p>See my photos</p>
+                        </a>
+                    </div>
+                    <!-- Duplicate set for infinite scroll effect -->
+                    <div class="social-card">
+                        <a href="#" class="social-platform">
+                            <i class="fab fa-linkedin"></i>
+                            <h3>LinkedIn</h3>
+                            <p>Connect with me professionally</p>
+                        </a>
+                    </div>
+                    <div class="social-card">
+                        <a href="#" class="social-platform">
+                            <i class="fab fa-github"></i>
+                            <h3>GitHub</h3>
+                            <p>Check out my projects</p>
+                        </a>
+                    </div>
+                    <div class="social-card">
+                        <a href="#" class="social-platform">
+                            <i class="fab fa-twitter"></i>
+                            <h3>Twitter</h3>
+                            <p>Follow my updates</p>
+                        </a>
+                    </div>
+                    <div class="social-card">
+                        <a href="#" class="social-platform">
+                            <i class="fab fa-instagram"></i>
+                            <h3>Instagram</h3>
+                            <p>See my photos</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <div class="contact-info">
+                <p>Feel free to reach out</p>
+                <a href="mailto:your.email@example.com" id="contact-email" class="email-link"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>Loading...</p>
+                <p>Loading...</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+    <script src="matrix.js"></script>
+</body>
+</html> 
